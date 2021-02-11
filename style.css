@@ -1,0 +1,48 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 56, 56);
+    
+}
+.container{
+    margin-top: 5rem;
+    position: absolute;
+    width: 545px;
+    height: 500px;
+    border: 4px solid black;
+    background-color: rgb(211, 211, 85);
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: blue;
+    border-radius: .5rem;
+
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: rgb(63, 104, 17);
+    border-radius: .25rem;
+
+}
+
+.ball{
+    position:absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(131, 61, 4);
+    
+}
+
+#score{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
